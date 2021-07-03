@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<style>  
+body{  
+  font-family: Arial, Helvetica, sans-serif;  
+  background-color: rgb(128, 255, 128);  
+}  
+.container {  
+    padding: 50px;  
+  background-color:White;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+hr {  
+  border: 1px solid #f1f1f1;  
+  margin-bottom: 25px;  
+}  
+.registerbtn {  
+  background-color: rgb(192, 192, 192);  
+  color: rgb(0, 0, 0);  
+  padding: 16px 20px;  
+  margin: 8px 0;  
+  border: none;  
+  cursor: pointer;  
+  width: 100%;  
+  opacity: 0.9;  
+}  
+.registerbtn:white {  
+  opacity: 1;  
+}  
+</style>  
+</head>  
+<body background="images/crop1.jpeg">   
+    <h1> Registration Form</h1> 
+  <hr>  
+<label> Firstname </label>         
+<input type="text" name="firstname" size="15"/> <br> <br>  
+<label> Middlename: </label>     
+<input type="text" name="middlename" size="15"/> <br> <br>  
+<label> Lastname: </label>         
+<input type="text" name="lastname" size="15"/> <br> <br>  
+  
+<label>   
+Country:  
+</label>   
+<select>  
+<option value="Country">Country</option>  
+<option value="Select">Select</option>  
+<option value="India">India</option>   
+</select>   
+<br>  
+<br>  
+<label>
+
+State:  
+</label>   
+<select>  
+<option value="state">State</option>  
+<option value="Mahrashtra">Maharashtra</option>  
+<option value="Karnataka">Karnataka</option> 
+<option value="Tamil Nadu">Tamil Nadu</option>  
+<option value="Andhra Pradesh">Andhra Pradesh</option>  
+<option value="Telangana">Telangana</option> 
+<option value="Punjab">Punjab</option>  
+<option value="Haryana">Haryana</option>  
+<option value="Kerala">Kerala</option>  
+</select>   
+<br>  
+<br>  
+<label>    
+Gender :  
+</label><br>  
+<input type="radio" name="male"/> Male <br>  
+<input type="radio" name="female"/> Female <br>  
+<input type="radio" name="other"/> Other  
+<br>  
+<br>    
+<label>   
+Phone :  
+</label>  
+<input type="text" name="country code"  value="+91" size="2"/>     
+Address  
+<br>  
+<textarea cols= "80" rows= "5" value="address">  
+</textarea>  
+<br> 
+<br>  
+ <label for="email"><b>Email</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  
+    <label for="psw"><b>Password</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>Re-type Password</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+    <button type="submit" class="registerbtn">Register</button>    
+</form>  
+</body>  
+</html>  
